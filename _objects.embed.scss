@@ -8,7 +8,7 @@
 
 $bare-embed--3-1:					false !default;
 $bare-embed--2-1:					false !default;
-$bare-embed--l6-9:					false !default;
+$bare-embed--16-9:					false !default;
 $bare-embed--4-3:					false !default;
 
 
@@ -72,7 +72,7 @@ $bare-embed--4-3:					false !default;
 // #embed--16-9
 // ========================================================================== 
 
-@if ($bare-embed--l6-9 == true) {
+@if ($bare-embed--16-9 == true) {
 
 	.#{$bare-ns}embed--16-9 {
 
