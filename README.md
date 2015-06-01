@@ -8,7 +8,7 @@ The `embed` is used to preserve the aspect ratio of embedded content.
 
 Install using Bower:
 
-	$ bower --save bare-sect
+	$ bower install --save bare-sect
 
 Import into project:
 
