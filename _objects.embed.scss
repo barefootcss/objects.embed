@@ -1,0 +1,101 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+// 
+// Features:
+// 
+
+$bare-embed--3-1:					false !default;
+$bare-embed--2-1:					false !default;
+$bare-embed--l6-9:					false !default;
+$bare-embed--4-3:					false !default;
+
+
+/* 
+   #sect
+   ========================================================================== */
+
+/**
+ * The embed object is used to preserve the aspect ratio of embedded content.
+ *
+ * Usage:
+ *
+ * <div class="embed"></div>
+ */
+
+.#{$bare-ns}embed {
+	display: block;
+	overflow: hidden;
+	position: relative;
+
+	&:before {
+		display: block;
+		content: "";
+		width: 100%;		
+	}
+}
+
+// 
+// #embed--3-1
+// ========================================================================== 
+
+@if ($bare-embed--3-1 == true) {
+
+	.#{$bare-ns}embed--3-1 {
+
+		&:before {
+			padding-bottom: 33.3%;
+		}
+
+	}
+
+}
+
+// 
+// #embed--2-1
+// ========================================================================== 
+
+@if ($bare-embed--2-1 == true) {
+
+	.#{$bare-ns}embed--2-1 {
+
+		&:before {
+			padding-bottom: 50%;
+		}
+
+	}
+
+}
+
+// 
+// #embed--16-9
+// ========================================================================== 
+
+@if ($bare-embed--16-9 == true) {
+
+	.#{$bare-ns}embed--16-9 {
+
+		&:before {
+			padding-bottom: 56.25%;
+		}
+
+	}
+
+}
+
+// 
+// #embed--4-3
+// ========================================================================== 
+
+@if ($bare-embed--4-3 == true) {
+
+	.#{$bare-ns}embed--4-3 {
+
+		&:before {
+			padding-bottom: 75%;
+		}
+
+	}
+
+}
