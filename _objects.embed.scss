@@ -21,10 +21,10 @@ $bare-embed--4-3:					false !default;
  *
  * Usage:
  *
- * <div class="embed"></div>
+ * <div class="o-embed"></div>
  */
 
-.#{$bare-ns}embed {
+.o-embed {
 	display: block;
 	overflow: hidden;
 	position: relative;
@@ -42,7 +42,7 @@ $bare-embed--4-3:					false !default;
 
 @if ($bare-embed--3-1 == true) {
 
-	.#{$bare-ns}embed--3-1 {
+	.o-embed--3-1 {
 
 		&:before {
 			padding-bottom: 33.3%;
@@ -58,7 +58,7 @@ $bare-embed--4-3:					false !default;
 
 @if ($bare-embed--2-1 == true) {
 
-	.#{$bare-ns}embed--2-1 {
+	.o-embed--2-1 {
 
 		&:before {
 			padding-bottom: 50%;
@@ -74,7 +74,7 @@ $bare-embed--4-3:					false !default;
 
 @if ($bare-embed--16-9 == true) {
 
-	.#{$bare-ns}embed--16-9 {
+	.o-embed--16-9 {
 
 		&:before {
 			padding-bottom: 56.25%;
@@ -90,7 +90,7 @@ $bare-embed--4-3:					false !default;
 
 @if ($bare-embed--4-3 == true) {
 
-	.#{$bare-ns}embed--4-3 {
+	.o-embed--4-3 {
 
 		&:before {
 			padding-bottom: 75%;
